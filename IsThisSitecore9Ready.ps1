@@ -298,7 +298,7 @@ Write-Host "_______________" -ForegroundColor Cyan
 # NOTE: I've been running into an issue registering HTTPS based repositories in what appears to be a PowerShell bug.
 # The work around is to register the Register-PSRepositoryFix function as answered here and use it below https://stackoverflow.com/questions/35296482/invalid-web-uri-error-on-register-psrepository 
 #.\Register-PSRepositoryFix -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
-.\Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
+Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
 
 # Install the Sitecore Install Framwork module
 if (Get-Module -ListAvailable -Name  SitecoreInstallFramework) {
