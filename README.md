@@ -4,6 +4,9 @@
 PowerShell script that help verify that you've got machine prerequisites covered before installing **Sitecore 9**.
 Based on [Sitecore 9 Installation Guide](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/90/Sitecore_Experience_Platform_90_Initial_Release.aspx) and [Sitecore Compatibility Table](https://kb.sitecore.net/articles/087164)
 
+Read the [blog post](http://www.sitecoregabe.com/2018/04/sitecore-9-machine-prerequisites-check.html)
+
+## Usage
 **Run as an Administrator:** >>     *.\IsThisSitecore9Ready.ps1*
 
 ## Checks:
@@ -17,3 +20,4 @@ Based on [Sitecore 9 Installation Guide](https://dev.sitecore.net/Downloads/Site
  - Checks and registers SIF (SitecoreInstallFramework and SitecoreFundamentals)
 
 ![IsThisSitecore9Ready.ps1 results](https://i.imgur.com/2jXjO0l.png)
+
